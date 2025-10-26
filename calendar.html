@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Anta' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container-fluid mpfirstnav">
+        <div class="row" style="background-color: #3e007c; border-bottom-left-radius: 35px; height: 100px; border-bottom-right-radius: 35px; ">
+          <div class="col-lg-7">
+            <nav class="navbar " style="background-color: #3e007c; border-bottom-left-radius: 35px;">
+              <div class="container-fluid" style="margin-top: 5px;">
+                <a class="navbar-brand" href="index.html" style="color: white; font-size: 30px;  font-family: 'Anta';">Tech</a>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-3">
+            <div class="input-containermp">
+              <input type="text" name="text" class="inputmp" placeholder=" search...">
+              <span class="iconmp">
+                <svg width="19px" height="19px"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M14 8H17" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M22 22L20 20" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+              </span>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <span><a href="notification.html"><i class="fa fa-bell" aria-hidden="true" style="font-size: 28px; margin-top: 26px; text-indent: 30px; color: white;"></i></a><a href="chatbox.html"><i style='font-size:28px; text-indent: 30px; color: white;' class='fas mt-3'>&#xf086;</i></a><a href="profile.html"><i class="fa fa-user" aria-hidden="true" style="font-size: 28px; margin-top: 28px; text-indent: 30px; color: white;"></i></a></span>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary admpnavlast" style="background-color: #3e007c;">
+          <div class="container-fluid" style="background-color: #3e007c;">
+            <a class="navbar-brand" href="index.html" style=" color: white; font-size: 30px;  font-family: 'Anta';">Tech</a>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="background-color: #f1bd06;"><i style="font-size:24px; background-color: #f1bd06;" class="fa">&#xf038;</i></button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" >
+                <div class="offcanvas-header" style="background-color: #3e007c;">
+                  <h3 class="offcanvas-title" id="offcanvasRightLabel" style="font-family: 'Anta'; color: white;">Tech</h3>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: white; "></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navchg">
+                    <li><a href="index.html"><i class="fa fa-home mt-3" aria-hidden="true" style='font-size:24px'></i>&nbsp;&nbsp;<span>Dashboard</span></a></li>
+                    <li><a href="employee.html"><i style='font-size:24px' class='fas mt-3'>&#xf500;</i>&nbsp;&nbsp;<span class="mt-2">Employees</span></a></li>
+                    <li><a href="task.html"><i style="font-size:24px" class="fa mt-3">&#xf0ae;</i>&nbsp;&nbsp;<span class="mt-2" >Task</span></a></li>
+                    <li><a href="calendar.html"><i style="font-size:24px" class="fa mt-3">&#xf073;</i>&nbsp;&nbsp;<span class="mt-2" >Calendar</span></a></li>
+                    <li><a href="attendence"><i style='font-size:24px' class='fas mt-3'>&#xf46c;</i>&nbsp;&nbsp;<span class="mt-2">Attendence</span></a></li>
+                    <li><a href="leave.html"><i style='font-size:24px' class='fas mt-3'>&#xf272;</i>&nbsp;&nbsp;<span class="mt-2">Leave</span></a></li>
+                    <li><a href="client.html"><i style='font-size:24px' class='far mt-3'>&#xf2c1;</i>&nbsp;&nbsp;<span class="mt-2">Client</span></a></li>
+                    <li><a href="investor.html"><i style='font-size:24px' class='fas mt-3'>&#xf508;</i>&nbsp;&nbsp;<span class="mt-2">Investor</span></a></li>
+                    <li><a href="manageteam.html"><i style='font-size:24px' class='fas mt-3'>&#xf505;</i>&nbsp;&nbsp;<span class="mt-2">Manage Team</span></a></li>
+                    <li><a href="vacanies.html"><i style="font-size:24px" class="fa mt-3">&#xf234;</i>&nbsp;&nbsp;<span class="mt-2">Vacanies</span></a></li>
+                    <li><a href="project.html"><i style='font-size:24px' class='fab mt-3'>&#xf1ed;</i>&nbsp;&nbsp;<span class="mt-2">Projects</span></a></li>
+                    <li><a href="event.html"><i style='font-size:24px' class='fas mt-3'>&#xf46d;</i>&nbsp;&nbsp;<span class="mt-2">Event</span></a></li>
+                    <li><a href="award.html"><i style='font-size:24px' class='fas mt-3'>&#xf559;</i>&nbsp;&nbsp;<span class="mt-2">Award</span></a></li>
+                    <li><a href="payroll.html"><i class="fa fa-inr mt-3" aria-hidden="true" style='font-size:24px'></i>&nbsp;&nbsp;<span class="mt-2">Payroll</span></a></li>
+                    <li><a href="chatbox.html"><i style='font-size:24px' class='fas mt-3'>&#xf086;</i>&nbsp;&nbsp;<span class="mt-2">Chatbox</span></a></li>
+                    <li><a href="notification.html"><i class="fa fa-bell mt-3" aria-hidden="true" style="font-size: 24px; "></i>&nbsp;&nbsp;<span>Notification</span></a></li>
+                    <li><a href="settings.html"><i style="font-size:24px" class="fa mt-3">&#xf013;</i><span class="mt-2">Settings</span></a></li>
+                    <li><a href="profile.html"><i class="fa fa-user mt-3" aria-hidden="true" style="font-size: 24px; "></i>&nbsp;&nbsp;<span>Profile</span></a></li>
+                    <li><a href="logout.html"><i class="fa fa-sign-out mt-3" aria-hidden="true"></i>&nbsp;&nbsp;<span class="mt-2">Logout</span></a></li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+      </nav>
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-3 leftcontent">
+                <div class="card leftbox1 border-box" >
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb" style="font-size: 18px;">
+                      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Calendar</li>
+                    </ol>
+                  </nav>
+                  <h4 class="card-title">Admin Dashboard</h4>
+                </div>
+                <div class="card leftbox1 border-box text-center" style="margin-top: 30px;">
+                  <i class="fa fa-user" aria-hidden="true" style="font-size: 100px; margin-top: 25px; "></i>
+                  <h4 class="card-title mt-3">Welcome Admin </h4>
+                  <h5>Owner</h5>
+                </div>
+                <div class="card leftbox1 border-box text-center mptable" style="margin-top: 30px;">
+                  <table class="table  table-bordered">
+                    <tbody>
+                      <tr>
+                        <td onclick="window.location.href='index.html'" style="cursor: pointer;"><i class="fa fa-home mt-3" aria-hidden="true" style='font-size:24px'></i><p class="mt-2" >Dashboard</p></td>
+                        <td onclick="window.location.href='employee.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf500;</i></i><p class="mt-2">Employees</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='task.html'" style="cursor: pointer;"><i style="font-size:24px" class="fa mt-3">&#xf0ae;</i><p class="mt-2" >Task</p></td>
+                        <td onclick="window.location.href='calendar.html'" style="cursor: pointer;"><i style="font-size:24px" class="fa mt-3">&#xf073;</i><p class="mt-2" >Calendar</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='attendence.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf46c;</i><p class="mt-2">Attendence</p></td>
+                        <td onclick="window.location.href='leave.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf272;</i><p class="mt-2">Leave</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='client.html'" style="cursor: pointer;"><i style='font-size:24px' class='far mt-3'>&#xf2c1;</i><p class="mt-2">Client</p></td>
+                        <td onclick="window.location.href='investor.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf508;</i><p class="mt-2">Investor</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='payroll.html'" style="cursor: pointer;"><i class="fa fa-inr mt-3" aria-hidden="true" style='font-size:24px'></i><p class="mt-2">Payroll</p></td>
+                        <td onclick="window.location.href='manageteam.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf505;</i><p class="mt-2">Manage Team</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='vacanies.html'" style="cursor: pointer;"><i style="font-size:24px" class="fa mt-3">&#xf234;</i><p class="mt-2">Vacanies</p></td>
+                        <td onclick="window.location.href='project.html'" style="cursor: pointer;"><i style='font-size:24px' class='fab mt-3'>&#xf1ed;</i><p class="mt-2">Projects</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='event.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf46d;</i><p class="mt-2">Event</p></td>
+                        <td onclick="window.location.href='award.html'" style="cursor: pointer;"><i style='font-size:24px' class='fas mt-3'>&#xf559;</i><p class="mt-2">Award</p></td>
+                      </tr>
+                      <tr>
+                        <td onclick="window.location.href='settings.html'" style="cursor: pointer;"><i style="font-size:24px" class="fa mt-3">&#xf013;</i><p class="mt-2">Settings</p></td>                       
+                        <td onclick="window.location.href='logout.html'" style="cursor: pointer;"><i class="fa fa-sign-out mt-3" aria-hidden="true"></i><p class="mt-2">Logout</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            <div class="col-lg-9 rightcontent">
+              <div class="card leftbox1 border-box rightsecnav" style="color: black;" >
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                  <ol class="breadcrumb "style="font-size: 18px;" >
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Calendar</li>
+                  </ol>
+                </nav>
+              </div>
+              <!-- main content -->
+              <div class="card leftbox1 border-box" style="margin-top: 30px;">
+                <div class="container">
+                  <div class="row">
+                      <h3 class="mt-3 " style="font-family: 'anta'; border-bottom: 2px solid #FFBB64; width: 99%;  padding-bottom:10px">Calendar</h3>
+                  </div>
+                  <div class="mt-3 form-group text-center">
+                      <label for="monthSlider" style="font-family: 'Anybody'; font-size: 20px;">Select Month:</label>
+                      <input type="range" class="form-control-range" id="monthSlider" min="0" max="11" value="0">
+                  </div>
+                  <div class="calendar-mg">
+                      <table class="table mt-3 table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Sun</th>
+                                  <th>Mon</th>
+                                  <th>Tue</th>
+                                  <th>Wed</th>
+                                  <th>Thu</th>
+                                  <th>Fri</th>
+                                  <th>Sat</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <!-- Calendar days go here -->
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      // Generate calendar days dynamically
+      const today = new Date();
+      const year = today.getFullYear();
+      let month = today.getMonth();
+
+      const monthSlider = document.getElementById("monthSlider");
+      monthSlider.value = month;
+
+      const calendarBody = document.querySelector(".calendar-mg tbody");
+
+      function generateCalendar() {
+          calendarBody.innerHTML = "";
+          const daysInMonth = new Date(year, month + 1, 0).getDate();
+          const firstDayOfMonth = new Date(year, month, 1).getDay();
+
+          let date = 1;
+          for (let i = 0; i < 6; i++) {
+              let row = document.createElement("tr");
+
+              for (let j = 0; j < 7; j++) {
+                  if (i === 0 && j < firstDayOfMonth) {
+                      let cell = document.createElement("td");
+                      row.appendChild(cell);
+                  } else if (date > daysInMonth) {
+                      break;
+                  } else {
+                      let cell = document.createElement("td");
+                      let dateElement = document.createElement("div");
+                      dateElement.classList.add("date");
+                      dateElement.textContent = date;
+
+                      // Add colors to dates
+                      if (new Date(year, month, date).getDay() === 0) {
+                          dateElement.style.backgroundColor = "#f44336"; // Red for Sundays
+                          dateElement.style.color = "#fff";
+                      } else if (new Date(year, month, date).getDay() === 6) {
+                          dateElement.style.backgroundColor = "#4caf50"; // Green for Saturdays
+                          dateElement.style.color = "#fff";
+                      } else {
+                          dateElement.style.backgroundColor = "#2196f3"; // Blue for weekdays
+                          dateElement.style.color = "#fff";
+                      }
+
+                      cell.appendChild(dateElement);
+
+                      let noteInput = document.createElement("textarea");
+                      noteInput.classList.add("note-input", "form-control", "mt-2");
+                      noteInput.placeholder = "Add note...";
+                      cell.appendChild(noteInput);
+
+                      row.appendChild(cell);
+                      date++;
+                  }
+              }
+
+              calendarBody.appendChild(row);
+          }
+
+          let monthRow = document.createElement("tr");
+          let monthCell = document.createElement("th");
+          monthCell.setAttribute("colspan", "7");
+          monthCell.textContent = new Date(year, month, 1).toLocaleString('default', { month: 'long' });
+          monthRow.appendChild(monthCell);
+          calendarBody.insertBefore(monthRow, calendarBody.firstChild);
+      }
+
+      generateCalendar();
+
+      monthSlider.addEventListener("input", function() {
+          month = parseInt(this.value);
+          generateCalendar();
+      });
+  </script>
+  </body>
+</html>
